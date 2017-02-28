@@ -21,7 +21,7 @@ import java.util.HashMap;
 public class DeckViewLayoutAlgorithm<T> {
 
     // These are all going to change
-    static final float StackPeekMinScale = 0.8f; // The min scale of the last card in the peek area
+    static final float StackPeekMinScale = 0.9f; // The min scale of the last card in the peek area
 
     // A report of the visibility state of the stack
     public class VisibilityReport {
