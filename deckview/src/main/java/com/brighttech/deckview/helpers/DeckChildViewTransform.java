@@ -84,7 +84,7 @@ public class DeckChildViewTransform {
                 anim.translationY(translationY);
             }
             if (allowShadows && hasTranslationZChangedFrom(ViewCompat.getTranslationZ(v))) {
-                anim.translationZ(translationZ);
+                anim.translationZ(translationZ/6);
             }
             if (hasScaleChangedFrom(v.getScaleX())) {
                 anim.scaleX(scale)
@@ -114,7 +114,7 @@ public class DeckChildViewTransform {
                 v.setTranslationY(translationY);
             }
             if (allowShadows && hasTranslationZChangedFrom(ViewCompat.getTranslationZ(v))) {
-                ViewCompat.setTranslationZ(v, translationZ);
+                ViewCompat.setTranslationZ(v, translationZ/6);
             }
             if (hasScaleChangedFrom(v.getScaleX())) {
                 v.setScaleX(scale);
